@@ -1,0 +1,69 @@
+.video-recorder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  text-align: center;
+  
+}
+
+.controls {
+  margin-bottom: 10px;
+}
+
+.video-frame {
+  width: 100%; /* Adjusted to fill container */
+  height: 500px; /* Adjusted for better visibility */
+  position: relative; /* Needed for positioning overlay */
+}
+
+.webcam-video {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.overlay {
+  position: absolute;
+  top: 10px; /* Adjusted to move question up */
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  display: flex;
+  align-items: flex-start; /* Adjust to top */
+  justify-content: center;
+  color: rgb(8, 2, 2);
+  font-size: 18px; /* Updated font size */
+  font-weight: bold; /* Make text bold */
+  text-align: center;
+  pointer-events: none; /* Ensure overlay does not block interaction */
+}
+
+.download-btn {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.download-btn:hover {
+  background-color: #45a049;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
